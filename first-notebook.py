@@ -1,5 +1,6 @@
 # Databricks notebook source
 # Databricks notebook source
+# adding the comment to see if the workflow will start
 import re
 def convert_price_to_clean(price: str) -> str:
     """
