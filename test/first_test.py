@@ -2,7 +2,7 @@ import pytest
 import os
 import csv
 dataArr = []
-with open('export.csv','r')as f:
+with open('data-files/export.csv','r')as f:
   data = csv.reader(f)
   for row in data:
         dataArr.append(row[0])
